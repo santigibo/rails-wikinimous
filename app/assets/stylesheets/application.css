@@ -13,3 +13,94 @@
  *= require_tree .
  *= require_self
  */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap');
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.show-article {
+  margin: 8px 0;
+  height: 100vh;
+  background-color: white;
+  border-radius: 8px;
+  border: 4px solid lightgrey;
+  margin: 0 auto;
+  padding: 32px 64px;
+}
+
+body {
+  background-color: #DFE4DE;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  padding: 80px 0;
+  border-bottom: 4px solid grey;
+  width: 100%;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  background-color: #EAEAEA;
+  font-weight: 400;
+}
+
+.header > h1 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.article {
+  width: 100%;
+  border: 2px solid rgba(200,200,200,0.7);
+  border-radius: 4px;
+  padding: 32px;
+  transition: 0.3s;
+  color: #120202;
+  text-decoration: none;
+  background-color: white;
+  margin-top: 8px;
+}
+
+.fas {
+  font-size: 64px;
+  color: grey;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.fas:hover {
+  opacity: 1;
+}
+
+.article h3 {
+  font-size: 24px;
+}
+
+.articles p {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.article:hover {
+  background-color: #FBF8F6;
+  border-color: rgba(1193,119,103,0.5);
+}
+
+.a-title {
+  padding-bottom: 16px;
+  margin-bottom: 8px;
+  border-bottom: 2px solid lightgrey;
+}
+
+.content {
+  padding: 0 120px;
+  margin-bottom: 32px;
+}
+

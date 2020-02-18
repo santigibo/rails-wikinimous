@@ -1,0 +1,13 @@
+<div class="container">
+  <% @articles.each do |a| %>
+    <%= link_to(article_path(a.id)) do %>
+      <div class="article">
+        <h3><%= a.title %></h3>
+        <p><%= a.content %></p>
+      </div>
+    <% end %>
+  <% end %>
+</div>
+
+
+
